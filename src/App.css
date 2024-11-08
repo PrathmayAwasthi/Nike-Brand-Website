@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Poppins;
+}
+
+body{
+  background-color: #111;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 17px;
+}
+
+#img-logo{
+  width: 80px;
+}
+
+.logo{
+  margin-left: 70px;
+}
+
+ul{
+  display: flex;
+}
+
+.menu-item{
+  list-style: none;
+  margin: 30px;
+}
+
+.login-btn{
+  background-color: red;
+  width: 120px;
+  text-align: center;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-right: 70px;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  max-width: 700px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 120px;
+}
+
+.heading2{
+  max-width: 400px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.buttons{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+/* @keyframes float {
+  0% {
+    transform: translateY(-10px) rotate(-30deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(-30deg);
+  }
+  100% {
+    transform: translateY(-10px) rotate(-30deg);
+  }
+} */
+
+#shoe{
+  transform: rotate(-30deg);
+  width: 700px;
+  /* animation: float 3s ease-in-out infinite; */
+  filter: drop-shadow(0px 90px 50px #3b3b3b);
+  cursor: grab;
+  
+}
+
+.shop-now-btn{
+  background-color: red;
+}
+
+.category-btn{
+  border: 1px solid white;
+}
+
+.button-below{
+  width: 140px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  padding: 7px;
+}
+
+#flipkart{
+  width: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#amazon{
+  width: 50px;
+  margin-top: 10px;
+}
+
+.also-available{
+  font-size: 18px;
+}
